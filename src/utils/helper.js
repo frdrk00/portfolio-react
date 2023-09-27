@@ -1,5 +1,6 @@
 import {
   FaDiagramProject,
+  FaDiscord,
   FaEnvelope,
   FaFacebookF,
   FaGithub,
@@ -7,7 +8,6 @@ import {
   FaLinkedinIn,
   FaRenren,
   FaUser,
-  FaYoutube,
 } from 'react-icons/fa6'
 import {
   CarRent,
@@ -19,36 +19,32 @@ import {
   TravelGoApp,
   PixabayClone,
   RedditClone,
-  SearchJobApp,
-  AirbnbClone,
-  LinkedInClone,
-  SpotifyClone,
 } from '../assets'
 
 export const Socials = [
   {
-    id: `facebook-${Date.now()}`,
-    Icon: FaFacebookF,
-    uril: '',
-    color: '#1877F2',
-  },
-  {
     id: `linkedin-${Date.now()}`,
     Icon: FaLinkedinIn,
-    uril: '',
+    uril: 'https://www.linkedin.com/in/frederik-rbnsk',
     color: '#0072b1',
   },
   {
     id: `github-${Date.now()}`,
     Icon: FaGithub,
-    uril: '',
+    uril: 'https://github.com/frdrk00',
     color: '#fff',
   },
   {
-    id: `youtube-${Date.now()}`,
-    Icon: FaYoutube,
-    uril: '',
-    color: '#ff0000',
+    id: `facebook-${Date.now()}`,
+    Icon: FaFacebookF,
+    uril: 'https://m.me/frdrk00',
+    color: '#1877F2',
+  },
+  {
+    id: `discord-${Date.now()}`,
+    Icon: FaDiscord,
+    uril: 'https://discord.com/users/523213617089216532',
+    color: '#1877F2',
   },
 ]
 
