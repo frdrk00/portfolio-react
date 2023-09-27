@@ -64,7 +64,6 @@ const Home = () => {
           <motion.img
             initial={{ y: 0 }}
             animate={{
-              x: [0, 10, -10, 10, -10, 0],
               y: [-10, 10, -10],
             }}
             transition={{

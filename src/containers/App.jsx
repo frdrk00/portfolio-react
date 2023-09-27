@@ -1,5 +1,4 @@
-import Header from './Header'
-import Home from './Home'
+import { Header, Home, ServiceCount } from '../containers'
 
 const App = () => {
   return (
@@ -11,6 +10,9 @@ const App = () => {
 
       {/* Home Container */}
       <Home />
+
+      {/* Services count cards */}
+      <ServiceCount />
 
       {/* About Container */}
 
