@@ -1,4 +1,4 @@
-import { Header, Home, ServiceCount } from '../containers'
+import { Header, Home, ServiceCount, About } from '../containers'
 
 const App = () => {
   return (
@@ -15,7 +15,7 @@ const App = () => {
       <ServiceCount />
 
       {/* About Container */}
-
+      <About />
       {/* Skills Container */}
 
       {/* Projects Container */}
