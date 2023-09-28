@@ -3,6 +3,7 @@ import { Leaf1, Leaf2 } from '../assets'
 import { useState } from 'react'
 import { addDoc, collection } from 'firebase/firestore'
 import { db } from '../config/firebase.config'
+import { Alert } from './'
 
 const Contact = () => {
   const [data, setData] = useState({
@@ -10,6 +11,11 @@ const Contact = () => {
     lastName: '',
     email: '',
     message: '',
+  })
+  const [alert, setAlert] = useState({
+    isAlert: false,
+    message: '',
+    status: null,
   })
 
   const handleTextChange = (e) => {
@@ -21,14 +27,57 @@ const Contact = () => {
 
   const sendMessage = async () => {
     if (data.email === '' || data.email === null) {
-      // throw an alert
+      setAlert({
+        isAlert: true,
+        message: 'Required fields cannot be empty',
+        status: 'warning',
+      })
+
+      setInterval(() => {
+        setAlert({
+          isAlert: false,
+          message: '',
+          status: null,
+        })
+      }, 4000)
     } else {
       await addDoc(collection(db, 'messages'), { ...data })
         .then(() => {
-          // throw that alert message
+          setData({
+            firstName: '',
+            lastName: '',
+            email: '',
+            message: '',
+          })
+          setAlert({
+            isAlert: true,
+            message: 'Thanks for your message!',
+            status: 'success',
+          })
+
+          setInterval(() => {
+            setAlert({
+              isAlert: false,
+              message: '',
+              status: null,
+            })
+          }, 4000)
         })
         .catch((err) => {
           console.log(err)
+          setAlert({
+            isAlert: true,
+            message: `Error: ${err.message}`,
+            status: 'danger',
+          })
+
+          setInterval(() => {
+            setAlert({
+              isAlert: false,
+              message: '',
+              status: null,
+            })
+          }, 4000)
         })
     }
   }
@@ -38,6 +87,9 @@ const Contact = () => {
       id="contact"
       className="flex items-center justify-center flex-col gap-12 my-12"
     >
+      {/* Toast Alert notification */}
+      {alert.isAlert && <Alert status={alert.status} message={alert.message} />}
+
       {/* title */}
       <div className="w-full flex items-center justify-center py-24">
         <motion.div
