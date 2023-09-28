@@ -48,14 +48,14 @@ const Home = () => {
             <a
               href="#contact"
               style={{ boxShadow: 'inset 0px 0px 10px rgba(255,255,255,0.3)' }}
-              className="mt-12 border border-[rgba(255,255,255,0.3)] rounded-xl px-8 py-3 active:95 group hover:border-primary"
+              className="max-sm:w-full  mt-12 border border-[rgba(255,255,255,0.3)] rounded-xl px-8 max-sm:px-4 py-3 active:95 group hover:border-primary"
             >
-              <p className="text-texlight group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r group-hover:from-primary group-hover:to-secondary">
+              <p className="text-texlight group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r group-hover:from-primary group-hover:to-secondary max-sm:text-center">
                 Hire Me
               </p>
             </a>
 
-            <button className="px-8 mt-12 py-3 bg-gradient-to-br from-primary to-secondary rounded-xl h-auto w-full lg:w-auto hover:bg-gradient-to-br hover:from-black hover:to-black hover:border hover:border-primary hover:text-primary active:95">
+            <button className="max-sm:px-2 px-8 mt-12 py-3 bg-gradient-to-br from-primary to-secondary rounded-xl h-auto w-full lg:w-auto hover:bg-gradient-to-br hover:from-black hover:to-black hover:border hover:border-primary hover:text-primary active:95">
               <a href="/Frederik-Rybansky-CV.pdf">
                 <p className="font-semibold">Download CV</p>
               </a>

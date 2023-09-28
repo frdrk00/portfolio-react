@@ -47,37 +47,32 @@ const Skills = () => {
         {/* image section */}
         <div className="w-full flex flex-col gap-4 items-center justify-center px-8">
           <SkillCard
-            skill={'HTML5 & CSS3'}
-            percentage={'98%'}
-            color={'#f93fff'}
+            skill={'React & Next.js'}
+            percentage={'60%'}
+            color={'#ff7474'}
             move={true}
           />
           <SkillCard
             skill={'Javascript'}
             percentage={'80%'}
-            color={'#fcff3f'}
+            color={'#fdff81'}
           />
           <SkillCard
             skill={'Typescript'}
             percentage={'50%'}
-            color={'#55ff3f'}
+            color={'#89ff79'}
             move={true}
-          />
-          <SkillCard
-            skill={'React & Next.js'}
-            percentage={'60%'}
-            color={'#FF3F3F'}
           />
           <SkillCard
             skill={'Node.js & Express.js'}
             percentage={'70%'}
-            color={'#3fd9ff'}
-            move={true}
+            color={'#70e2ff'}
           />
           <SkillCard
             skill={'MongoDB & Firebase & AWS'}
             percentage={'75%'}
-            color={'#523fff'}
+            color={'#8172ff'}
+            move={true}
           />
         </div>
       </div>

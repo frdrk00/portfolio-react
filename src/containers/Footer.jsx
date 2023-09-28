@@ -18,7 +18,7 @@ const Footer = () => {
 
       <div className="w-full grid grid-cols-1 lg:grid-cols-3 mt-12">
         <p className="text-texlight text-center max-sm:my-4">
-          I am ready to answer your questions or inquiries.
+          I'm ready to answer your questions or inquiries.
           <br /> I will look forward to any job offers.
         </p>
         <p className="text-texlight text-center">

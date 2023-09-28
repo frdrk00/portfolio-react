@@ -34,19 +34,19 @@ const About = () => {
               alt=""
             />
 
-            <div className="absolute w-full h-full -top-3 -left-2 bg-gradient-to-br from-primary to-secondary rounded-md blur-[5px] -z-10"></div>
+            <div className="absolute w-full h-full -top-1 -left-1 bg-gradient-to-br from-primary to-secondary rounded-md blur-[5px] -z-10"></div>
           </div>
         </div>
 
         {/* content section */}
         <div className="w-full px-8 flex flex-col gap-4 items-start justify-start">
           <p className="text-texlight text-base tracking-wide text-justify mb-6">
-            I am a 28-year-old Slovakian who discovered a new passion in life.
-            It is programming and learning new technologies. This flexible
-            online job offers me the freedom and time to code, to which I am
-            devoting most of my energy, as I see great importance in this skill.
-            I would love to meet new ambitious people in the coding field with
-            whom we can move forward and create something significant together.
+            "I'm a 28-year-old Slovak, who discovered a new passion in life. It
+            is programming and learning new technologies. This flexible online
+            job offers me the freedom and time to code, to which I'm devoting
+            most of my energy, as I see great importance in this skill. I would
+            love to meet new ambitious people in the coding field with whom we
+            can move forward and create something significant together.
           </p>
           <p className="text-texlight text-base tracking-wide text-justify mb-10">
             Proficient in effective communication, adept at problem-solving,
