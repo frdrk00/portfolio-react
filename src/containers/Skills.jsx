@@ -1,5 +1,5 @@
-import { motion, AnimatePresence } from 'framer-motion'
-import { Leaf1, Leaf2, about } from '../assets'
+import { motion } from 'framer-motion'
+import { Leaf1, Leaf2 } from '../assets'
 import { SkillCard } from '../components'
 
 const Skills = () => {
@@ -32,25 +32,15 @@ const Skills = () => {
           <p className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary capitalize text-xl font-serif tracking-widest">
             My Skills & Work Experience
           </p>
-          <p className="text-texlight text-base tracking-wide text-justify">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
-            sit nostrum laborum non, inventore perspiciatis nesciunt. Eius
-            suscipit nam, eum nihil, odit velit impedit aspernatur architecto
-            quas voluptatum molestiae, debitis facilis sapiente est ex aperiam!
-            Veniam, deleniti tempora autem unde facere temporibus dolorum quos
-            error in ipsam.
+          <p className="text-texlight text-base tracking-wide text-justify mb-10">
+            🔵 React.js + Next.js + React Native
+            <br /> 🔵 JavaScript + TypeScript
+            <br /> 🔵 Node.js, Express.js
+            <br /> 🔵 MongoDB, Firebase, AWS
           </p>
           <p className="text-texlight text-base tracking-wide text-justify">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
-            sit nostrum laborum non, inventore perspiciatis nesciunt. Eius
-            suscipit nam, eum nihil, odit velit impedit aspernatur architecto
-            quas voluptatum molestiae.
-          </p>
-          <p className="text-texlight text-base tracking-wide text-justify">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
-            temporibus, illum inventore a magnam ab, dolorem nisi aut deleniti,
-            cum laborum distinctio at expedita? Ut voluptatibus sit incidunt
-            necessitatibus enim distinctio.
+            Collaborative team communication platforms
+            <br /> like Slack, ClickUp & many more.
           </p>
         </div>
 
@@ -75,18 +65,18 @@ const Skills = () => {
           />
           <SkillCard
             skill={'React & Next.js'}
-            percentage={'90%'}
+            percentage={'60%'}
             color={'#FF3F3F'}
           />
           <SkillCard
-            skill={'Node.js'}
+            skill={'Node.js & Express.js'}
             percentage={'70%'}
             color={'#3fd9ff'}
             move={true}
           />
           <SkillCard
             skill={'MongoDB & Firebase & AWS'}
-            percentage={'80%'}
+            percentage={'75%'}
             color={'#523fff'}
           />
         </div>

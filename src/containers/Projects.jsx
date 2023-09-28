@@ -59,9 +59,20 @@ const ProjectCard = ({ project }) => {
       {isHovered && (
         <motion.div className="absolute inset-0 backdrop-blur-md bg-[rgba(0,0,0,0.6)] flex flex-col items-center text-center justify-center gap-2">
           <p className="text-xl text-primary">{project?.name}</p>
-          <a href={project.gitURL}>
-            <FaGithub className="text-3xl text-white hover:text-primary" />
-          </a>
+          <div className="flex items-center justify-center flex-row space-x-2">
+            <a href={project.gitURL}>
+              <FaGithub className="text-3xl text-white hover:text-primary" />
+            </a>
+            <a
+              href={project.demoURL}
+              style={{ boxShadow: 'inset 0px 0px 10px rgba(255,255,255,0.3)' }}
+              className="border border-[rgba(255,255,255,0.3)] rounded-xl px-8 py-3 active:95 group hover:border-primary"
+            >
+              <p className="text-texlight group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r group-hover:from-primary group-hover:to-secondary">
+                Demo
+              </p>
+            </a>
+          </div>
         </motion.div>
       )}
     </motion.div>

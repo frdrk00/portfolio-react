@@ -29,12 +29,9 @@ const Home = () => {
           </h2>
 
           <p className="text-base text-texlight mt-6 text-center lg:text-left">
-            I am a 28-year-old Slovakian who discovered a new passion in life.
-            It is programming and learning new technologies. This flexible
-            online job offers me the freedom and time to code, to which I am
-            devoting most of my energy, as I see great importance in this skill.
-            I would love to meet new ambitious people in the coding field with
-            whom we can move forward and create something significant together.
+            Full-stack developer from Nitra / Bratislava, Slovakia.
+            <br />I have more than 1,5 year of experience with web development
+            using JavaScript and Typescript, with React.js more than 1 year.
           </p>
           {/* social media links */}
           <div className="flex items-center justify-center gap-16 mt-16">
@@ -47,7 +44,7 @@ const Home = () => {
           </div>
 
           {/* hire me */}
-          <div className='flex flex-row space-x-4 w-full h-auto'>
+          <div className="flex flex-row space-x-4 w-full h-auto">
             <a
               href="#contact"
               style={{ boxShadow: 'inset 0px 0px 10px rgba(255,255,255,0.3)' }}
@@ -59,7 +56,9 @@ const Home = () => {
             </a>
 
             <button className="px-8 mt-12 py-3 bg-gradient-to-br from-primary to-secondary rounded-xl h-auto w-full lg:w-auto hover:bg-gradient-to-br hover:from-black hover:to-black hover:border hover:border-primary hover:text-primary active:95">
-              <p className='font-semibold'>Download CV</p>
+              <a href="/Frederik-Rybansky-CV.pdf">
+                <p className="font-semibold">Download CV</p>
+              </a>
             </button>
           </div>
         </div>

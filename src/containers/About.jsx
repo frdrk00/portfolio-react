@@ -1,4 +1,4 @@
-import { motion, AnimatePresence } from 'framer-motion'
+import { motion } from 'framer-motion'
 import { Leaf1, Leaf2, about } from '../assets'
 const About = () => {
   return (
@@ -41,19 +41,22 @@ const About = () => {
         {/* content section */}
         <div className="w-full px-8 flex flex-col gap-4 items-start justify-start">
           <p className="text-texlight text-base tracking-wide text-justify mb-6">
+            I am a 28-year-old Slovakian who discovered a new passion in life.
+            It is programming and learning new technologies. This flexible
+            online job offers me the freedom and time to code, to which I am
+            devoting most of my energy, as I see great importance in this skill.
+            I would love to meet new ambitious people in the coding field with
+            whom we can move forward and create something significant together.
+          </p>
+          <p className="text-texlight text-base tracking-wide text-justify mb-10">
             Proficient in effective communication, adept at problem-solving,
             quick to grasp new principles and technologies, and committed to
             continuous progress. Additionally, passionate about the field of AI.
           </p>
           <p className="text-texlight text-base tracking-wide text-justify mb-10">
-            🔵 React.js + Next.js + React Native
-            <br /> 🔵 JavaScript + TypeScript
-            <br /> 🔵 Node.js, Express.js
-            <br /> 🔵 MongoDB, Firebase, AWS
-          </p>
-          <p className="text-texlight text-base tracking-wide text-justify">
-            Collaborative team communication platforms like Slack, ClickUp &
-            many more.
+            I follow current trends in web development and actively search for
+            new technologies and practices that can help me build better
+            applications and become a better developer.
           </p>
         </div>
       </div>
