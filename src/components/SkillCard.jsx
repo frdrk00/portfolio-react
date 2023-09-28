@@ -1,4 +1,4 @@
-import { motion, AnimatePresence } from 'framer-motion'
+import { motion } from 'framer-motion'
 
 const SkillCard = ({ skill, percentage, color, move }) => {
   return (
