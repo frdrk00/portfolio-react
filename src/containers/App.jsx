@@ -5,6 +5,7 @@ import {
   About,
   Skills,
   Projects,
+  Contact,
 } from '../containers'
 
 const App = () => {
@@ -31,6 +32,7 @@ const App = () => {
       <Projects />
 
       {/* Contact Container */}
+      <Contact />
 
       {/* Footer */}
     </div>
