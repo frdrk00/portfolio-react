@@ -49,7 +49,7 @@ const Skills = () => {
           <SkillCard
             skill={'React & Next.js'}
             percentage={'60%'}
-            color={'#ff7474'}
+            color={'#70e2ff'}
             move={true}
           />
           <SkillCard
@@ -60,18 +60,18 @@ const Skills = () => {
           <SkillCard
             skill={'Typescript'}
             percentage={'50%'}
-            color={'#89ff79'}
+            color={'#3f62fd'}
             move={true}
           />
           <SkillCard
             skill={'Node.js & Express.js'}
             percentage={'70%'}
-            color={'#70e2ff'}
+            color={'#89ff79'}
           />
           <SkillCard
             skill={'MongoDB & Firebase & AWS'}
             percentage={'75%'}
-            color={'#8172ff'}
+            color={'#ff7474'}
             move={true}
           />
         </div>

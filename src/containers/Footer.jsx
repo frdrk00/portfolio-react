@@ -4,7 +4,7 @@ import { Socials } from '../utils/helper'
 
 const Footer = () => {
   return (
-    <div className="w-full flex flex-col items-center justify-start mt-32 mb-12">
+    <div className="w-full flex flex-col items-center justify-start mt-32 mb-12 max-sm:mt-20">
       <p className="text-3xl tracking-wide text-texlight">Frederik Rybansky</p>
 
       <div className="flex items-center justify-center gap-16 mt-16">
