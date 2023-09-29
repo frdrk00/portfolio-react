@@ -29,7 +29,7 @@ const Footer = () => {
           <p className="text-texlight text-center">frederik.rbnsk@gmail.com</p>
           <p className="text-texlight text-center">+421 940 807 580</p>
           <a href="#contact">
-            <p className="text-primary text-center cursor-pointer">Hire Me</p>
+            <p className="text-primary text-center cursor-pointer max-sm:mb-20">Hire Me</p>
           </a>
         </div>
       </div>

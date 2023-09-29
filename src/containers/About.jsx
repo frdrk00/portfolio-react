@@ -7,7 +7,7 @@ const About = () => {
       className="flex items-center justify-center flex-col gap-12 my-12"
     >
       {/* title */}
-      <div className="w-full flex items-center justify-center py-24">
+      <div className="w-full flex items-center justify-center py-24 max-sm:py-8">
         <motion.div
           initial={{ opacity: 0, width: 0 }}
           animate={{ opacity: 1, width: 200 }}
@@ -41,7 +41,7 @@ const About = () => {
         {/* content section */}
         <div className="w-full px-8 flex flex-col gap-4 items-start justify-start">
           <p className="text-texlight text-base tracking-wide text-justify mb-6">
-            "I'm a 28-year-old Slovak, who discovered a new passion in life. It
+            I'm a 28-year-old Slovak, who discovered a new passion in life. It
             is programming and learning new technologies. This flexible online
             job offers me the freedom and time to code, to which I'm devoting
             most of my energy, as I see great importance in this skill. I would

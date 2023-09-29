@@ -11,7 +11,7 @@ const SkillCard = ({ skill, percentage, color, move }) => {
     >
       {/* name section */}
       <div className="flex-1 flex-col items-start justify-start flex gap-2">
-        <p className="text-base text-white">{skill}</p>
+        <p className="text-base text-white max-sm:text-xs">{skill}</p>
         <div className="w-full h-1 rounded-md overflow-hidden bg-[rgba(255,255,255,0.2)] relative">
           <motion.div
             initial={{ width: 0 }}

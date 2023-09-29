@@ -85,13 +85,13 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="flex items-center justify-center flex-col gap-12 my-12"
+      className="flex items-center justify-center flex-col gap-12 my-12 max-sm:my-0"
     >
       {/* Toast Alert notification */}
       {alert.isAlert && <Alert status={alert.status} message={alert.message} />}
 
       {/* title */}
-      <div className="w-full flex items-center justify-center py-24">
+      <div className="w-full flex items-center justify-center py-24 max-sm:py-8">
         <motion.div
           initial={{ opacity: 0, width: 0 }}
           animate={{ opacity: 1, width: 200 }}

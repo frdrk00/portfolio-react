@@ -9,7 +9,7 @@ const Skills = () => {
       className="flex items-center justify-center flex-col gap-12 my-12"
     >
       {/* title */}
-      <div className="w-full flex items-center justify-center py-24">
+      <div className="w-full flex items-center justify-center py-24 max-sm:py-8">
         <motion.div
           initial={{ opacity: 0, width: 0 }}
           animate={{ opacity: 1, width: 200 }}
@@ -45,7 +45,7 @@ const Skills = () => {
         </div>
 
         {/* image section */}
-        <div className="w-full flex flex-col gap-4 items-center justify-center px-8">
+        <div className="w-full flex flex-col gap-4 items-center justify-center px-8 max-sm:text-xs max-sm:mt-8">
           <SkillCard
             skill={'React & Next.js'}
             percentage={'60%'}

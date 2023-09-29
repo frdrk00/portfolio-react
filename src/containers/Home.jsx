@@ -28,13 +28,18 @@ const Home = () => {
             />
           </h2>
 
-          <p className="text-base text-texlight mt-6 text-center lg:text-left">
+          <p className="max-sm:hidden text-base text-texlight mt-6 text-center lg:text-left ">
             Full-stack developer from Nitra / Bratislava, Slovakia.
-            <br />I have more than 1,5 year of experience with web development
+            <br /><br />I have more than 1,5 year of experience with web development<br />
+            using JavaScript and Typescript, with React.js more than 1 year.
+          </p>
+          <p className='sm:hidden text-base text-texlight mt-6 text-center lg:text-left max-sm:text-sm'>
+          Full-stack developer from Nitra / Bratislava, Slovakia.
+            <br /><br />I have more than 1,5 year of experience with web development
             using JavaScript and Typescript, with React.js more than 1 year.
           </p>
           {/* social media links */}
-          <div className="flex items-center justify-center gap-16 mt-16">
+          <div className="flex items-center justify-center gap-16 mt-16 max-sm:mt-8">
             <AnimatePresence>
               {Socials &&
                 Socials.map((item, index) => (
@@ -44,18 +49,18 @@ const Home = () => {
           </div>
 
           {/* hire me */}
-          <div className="flex flex-row space-x-4 w-full h-auto">
+          <div className="flex flex-row space-x-4 w-full h-auto mt-12 max-sm:mt-4">
             <a
               href="#contact"
               style={{ boxShadow: 'inset 0px 0px 10px rgba(255,255,255,0.3)' }}
-              className="max-sm:w-full  mt-12 border border-[rgba(255,255,255,0.3)] rounded-xl px-8 max-sm:px-4 py-3 active:95 group hover:border-primary"
+              className="max-sm:w-full  border border-[rgba(255,255,255,0.3)] rounded-xl px-8 max-sm:px-4 py-3 active:95 group hover:border-primary"
             >
               <p className="text-texlight group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r group-hover:from-primary group-hover:to-secondary max-sm:text-center">
                 Hire Me
               </p>
             </a>
 
-            <button className="max-sm:px-2 px-8 mt-12 py-3 bg-gradient-to-br from-primary to-secondary rounded-xl h-auto w-full lg:w-auto hover:bg-gradient-to-br hover:from-black hover:to-black hover:border hover:border-primary hover:text-primary active:95">
+            <button className="max-sm:px-2 px-8  py-3 bg-gradient-to-br from-primary to-secondary rounded-xl h-auto w-full lg:w-auto hover:bg-gradient-to-br hover:from-black hover:to-black hover:border hover:border-primary hover:text-primary active:95">
               <a href="/Frederik-Rybansky-CV.pdf">
                 <p className="font-semibold">Download CV</p>
               </a>
@@ -64,7 +69,7 @@ const Home = () => {
         </div>
 
         {/* hero image */}
-        <div className="w-full h-full flex items-center justify-start lg:justify-center">
+        <div className="w-full h-full flex items-center justify-start lg:justify-center max-sm:mt-4">
           <motion.img
             initial={{ y: 0 }}
             animate={{
