@@ -1,10 +1,20 @@
 {
   "home_i_am": "Hello, I'm",
   "home_and_i_am": "And I'm",
+  "home_a_developer": "a Developer..",
+  "home_a_freelancer": "a Freelancer..",
   "home_full_stack_developer": "Full-stack developer from Nitra / Bratislava, Slovakia.",
   "home_experience": "I have more than 1,5 year of experience with web development using JavaScript and Typescript, with React.js more than 1 year.",
   "home_hire_me": "Hire Me",
   "home_download_cv": "Download CV",
+
+  "skills_title": "Skills",
+  "skills_my_skills_work_experience": "My Skills & Work Experience",
+  "skills_list_1": "🔵 React.js + Next.js + React Native",
+  "skills_list_2": "🔵 JavaScript + TypeScript",
+  "skills_list_3": "🔵 Node.js, Express.js",
+  "skills_list_4": "🔵 MongoDB, Firebase, AWS",
+  "skills_collaborative_platforms": "Collaborative team communication platforms like Slack, ClickUp & many more.",
 
   "about_title": "About",
   "about_paragraph1": "I'm a 28-year-old Slovak, who discovered a new passion in life. It is programming and learning new technologies. This flexible online job offers me the freedom and time to code, to which I'm devoting most of my energy, as I see great importance in this skill. I would love to meet new ambitious people in the coding field with whom we can move forward and create something significant together.",
@@ -24,14 +34,6 @@
   "footer_email": "frederik.rbnsk@gmail.com",
   "footer_phone": "+421 940 807 580",
   "footer_hire_me": "Hire Me",
-
-  "skills_title": "Skills",
-  "skills_my_skills_work_experience": "My Skills & Work Experience",
-  "skills_list_1": "🔵 React.js + Next.js + React Native",
-  "skills_list_2": "🔵 JavaScript + TypeScript",
-  "skills_list_3": "🔵 Node.js, Express.js",
-  "skills_list_4": "🔵 MongoDB, Firebase, AWS",
-  "skills_collaborative_platforms": "Collaborative team communication platforms like Slack, ClickUp & many more.",
 
   "service_card_programmer_life": "Programmer Life",
   "service_card_coding_time": "Coding Time",

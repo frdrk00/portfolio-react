@@ -25,7 +25,7 @@ const Home = () => {
           <h2 className="text-2xl lg:text-4xl text-texlight mt-4">
             {t('home_and_i_am')}{' '}
             <HeroTypeWritter
-              words={['a Developer..', 'a Freelancer..']}
+              words={[t('home_a_developer'), t('home_a_freelancer')]}
               speed={100}
             />
           </h2>
