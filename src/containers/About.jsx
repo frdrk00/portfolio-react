@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion'
-import { Leaf1, Leaf2 } from '../assets'
+import { Leaf1, Leaf2, about } from '../assets'
 import { useTranslation } from 'react-i18next'
+
 const About = () => {
   const { t } = useTranslation()
   return (
