@@ -23,7 +23,23 @@ const About = () => {
           </p>
           <img src={Leaf2} className="w-6 h-auto object-contain" alt="" />
         </motion.div>
+      </div>
 
+      {/* main content */}
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 w-full">
+        {/* image section */}
+        <div className="w-full flex items-center justify-center px-8 max-sm:mb-4">
+          <div className="w-full lg:w-96 p-[2px] rounded-md bg-gradient-to-br from-primary to-secondary relative">
+            <img
+              src={about}
+              className="w-full rounded-md h-auto object-contain"
+              alt=""
+            />
+
+            <div className="absolute w-full h-full -top-1 -left-1 bg-gradient-to-br from-primary to-secondary rounded-md blur-[5px] -z-10"></div>
+          </div>
+        </div>
+        
         {/* content section */}
         <div className="w-full px-8 flex flex-col gap-4 items-start justify-start sm:mt-8">
           <p className="text-texlight text-base tracking-wide text-justify mb-6 max-sm:mb-2">
