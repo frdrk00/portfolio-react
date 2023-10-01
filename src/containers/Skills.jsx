@@ -1,8 +1,11 @@
 import { motion } from 'framer-motion'
 import { Leaf1, Leaf2 } from '../assets'
 import { SkillCard } from '../components'
+import { useTranslation } from 'react-i18next'
 
 const Skills = () => {
+  const { t } = useTranslation()
+
   return (
     <section
       id="skills"
@@ -19,7 +22,7 @@ const Skills = () => {
         >
           <img src={Leaf1} className="w-6 h-auto object-contain" alt="" />
           <p className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary capitalize text-xl font-serif tracking-widest">
-            Skills
+            {t('skills_title')}
           </p>
           <img src={Leaf2} className="w-6 h-auto object-contain" alt="" />
         </motion.div>
@@ -30,17 +33,16 @@ const Skills = () => {
         {/* content section */}
         <div className="w-full px-8 flex flex-col gap-4 items-start justify-start">
           <p className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary capitalize text-xl font-serif tracking-widest">
-            My Skills & Work Experience
+            {t('skills_my_skills_work_experience')}
           </p>
           <p className="text-texlight text-base tracking-wide text-justify mb-10">
-            🔵 React.js + Next.js + React Native
-            <br /> 🔵 JavaScript + TypeScript
-            <br /> 🔵 Node.js, Express.js
-            <br /> 🔵 MongoDB, Firebase, AWS
+            {t('skills_list_1')}
+            <br /> {t('skills_list_2')}
+            <br /> {t('skills_list_3')}
+            <br /> {t('skills_list_4')}
           </p>
           <p className="text-texlight text-base tracking-wide text-justify">
-            Collaborative team communication platforms
-            <br /> like Slack, ClickUp & many more.
+            {t('skills_collaborative_platforms')}
           </p>
         </div>
 

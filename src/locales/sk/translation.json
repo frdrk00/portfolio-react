@@ -1,0 +1,44 @@
+{
+  "home_i_am": "Ahoj, som",
+  "home_and_i_am": "A som",
+  "home_full_stack_developer": "Full-stack vývojár z Nitry / Bratislavy, Slovensko.",
+  "home_experience": "Mám viac ako 1,5 roka skúseností s vývojom webových aplikácií s použitím JavaScriptu a TypeScriptu, pričom s React.js mám viac ako 1 rok.",
+  "home_hire_me": "Osloviť",
+  "home_download_cv": "Stiahnuť životopis",
+
+  "about_title": "O mne",
+  "about_paragraph1": "Som 28-ročný Slovák, ktorý objavil novú vášeň v živote. Je to programovanie a učenie sa novým technológiám. Táto flexibilná online práca mi poskytuje slobodu a čas na kódovanie, ktorému venujem väčšinu svojej energie, pretože vidím veľký význam v tejto zručnosti. Rád by som stretol nových ambicióznych ľudí v oblasti programovania, s ktorými môžeme ísť vpred a vytvoriť niečo významné spolu.",
+  "about_paragraph2": "Mám zručnosti v efektívnej komunikácii, som šikovný v riešení problémov, rýchlo chápem nové princípy a technológie a som oddaný neustálemu pokroku. Okrem toho mám vášeň pre oblasť umelej inteligencie.",
+  "about_paragraph3": "Sledujem aktuálne trendy vo vývoji webových aplikácií a aktívne hľadám nové technológie a postupy, ktoré mi pomôžu vytvoriť lepšie aplikácie a stať sa lepším vývojárom.",
+
+  "skills_title": "Zručnosti",
+  "skills_my_skills_work_experience": "Moje zručnosti a pracovné skúsenosti",
+  "skills_list_1": "🔵 React.js + Next.js + React Native",
+  "skills_list_2": "🔵 JavaScript + TypeScript",
+  "skills_list_3": "🔵 Node.js, Express.js",
+  "skills_list_4": "🔵 MongoDB, Firebase, AWS",
+  "skills_collaborative_platforms": "Spolupracujem na komunikačných platformách tímu ako Slack, ClickUp a mnoho ďalších.",
+
+  "service_card_programmer_life": "Život programátora",
+  "service_card_coding_time": "Čas programovania",
+  "service_card_public_projects": "Verejné projekty",
+  "service_card_full_stack_projects": "Projekty Full-Stack",
+  "service_count_programmer_life": "1+ Rok",
+  "service_count_coding_time": "2000+ Hodín",
+  "service_count_public_projects": "50+",
+  "service_count_full_stack_projects": "30+",
+
+  "contact_title": "Kontakt",
+  "contact_first_name": "Meno",
+  "contact_last_name": "Priezvisko",
+  "contact_email": "E-mail",
+  "contact_message_placeholder": "Vaša správa...",
+  "contact_send_button": "Odoslať",
+
+  "footer_name": "Frederik Rybanský",
+  "footer_contact_info": "Som pripravený zodpovedať vaše otázky alebo požiadavky. Teším sa na akékoľvek pracovné ponuky.",
+  "footer_communication_info": "Zvyčajne komunikujem cez LinkedIn, e-mail alebo mobilný telefón.",
+  "footer_email": "frederik.rbnsk@gmail.com",
+  "footer_phone": "+421 940 807 580",
+  "footer_hire_me": "Osloviť"
+}

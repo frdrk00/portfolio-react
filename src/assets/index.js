@@ -16,3 +16,6 @@ export { default as RedditClone } from './img/Project/thumb-reddit.png'
 export { default as AirbnbClone } from './img/Project/thumb-airbnb.png'
 export { default as LinkedInClone } from './img/Project/thumb-linkedin.png'
 export { default as SpotifyClone } from './img/Project/thumb-spotify.png'
+
+export { default as SK} from './img/language/sk.png'
+export { default as EN} from './img/language/en.png'

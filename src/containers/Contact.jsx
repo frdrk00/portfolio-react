@@ -4,8 +4,11 @@ import { useState } from 'react'
 import { addDoc, collection } from 'firebase/firestore'
 import { db } from '../config/firebase.config'
 import { Alert } from './'
+import { useTranslation } from 'react-i18next'
 
 const Contact = () => {
+  const { t } = useTranslation()
+
   const [data, setData] = useState({
     firstName: '',
     lastName: '',
@@ -101,7 +104,7 @@ const Contact = () => {
         >
           <img src={Leaf1} className="w-6 h-auto object-contain" alt="" />
           <p className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary capitalize text-xl font-serif tracking-widest">
-            Contact Me
+            {t('contact_title')}
           </p>
           <img src={Leaf2} className="w-6 h-auto object-contain" alt="" />
         </motion.div>
@@ -116,7 +119,7 @@ const Contact = () => {
             name="firstName"
             value={data.firstName}
             onChange={handleTextChange}
-            placeholder="First Name"
+            placeholder={t('contact_first_name')}
             className="w-full px-4 py-3 rounded-md border border-[rgba(255,255,255,0.3)] bg-transparent outline-none focus:border-primary text-texlight"
           />
           <input
@@ -124,7 +127,7 @@ const Contact = () => {
             name="lastName"
             value={data.lastName}
             onChange={handleTextChange}
-            placeholder="Last Name"
+            placeholder={t('contact_last_name')}
             className="w-full px-4 py-3 rounded-md border border-[rgba(255,255,255,0.3)] bg-transparent outline-none focus:border-primary text-texlight"
           />
         </div>
@@ -135,7 +138,7 @@ const Contact = () => {
           name="email"
           value={data.email}
           onChange={handleTextChange}
-          placeholder="Email"
+          placeholder={t('contact_email')}
           className="w-full px-4 py-3 rounded-md border border-[rgba(255,255,255,0.3)] bg-transparent outline-none focus:border-primary text-texlight"
         />
         <textarea
@@ -145,7 +148,7 @@ const Contact = () => {
           rows="10"
           value={data.message}
           onChange={handleTextChange}
-          placeholder="Message here..."
+          placeholder={t('contact_message_placeholder')}
           className="w-full px-4 py-3 rounded-md border border-[rgba(255,255,255,0.3)] bg-transparent outline-none focus:border-primary text-texlight"
         ></textarea>
         <div className="w-full flex items-center justify-center lg:justify-end">
@@ -153,7 +156,7 @@ const Contact = () => {
             className="px-12 py-3 bg-gradient-to-br from-primary to-secondary rounded-md w-full lg:w-auto hover:bg-gradient-to-br hover:from-black hover:to-black hover:border hover:border-primary hover:text-primary"
             onClick={sendMessage}
           >
-            Send
+            {t('contact_send_button')}
           </button>
         </div>
       </div>
