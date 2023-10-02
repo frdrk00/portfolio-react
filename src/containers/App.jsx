@@ -1,6 +1,5 @@
 import i18n from 'i18next'
 import { initReactI18next } from 'react-i18next'
-import { useTranslation } from 'react-i18next'
 
 import translationEN from '../locales/en/translation.json'
 import translationSK from '../locales/sk/translation.json'
@@ -36,7 +35,6 @@ i18n.use(initReactI18next).init({
 })
 
 const App = () => {
-  const { t } = useTranslation()
 
   return (
     <div className="w-full xl:w-[1600px] py-32 max-sm:py-8 px-4 lg:px-12 pr-4 lg:pr-32">

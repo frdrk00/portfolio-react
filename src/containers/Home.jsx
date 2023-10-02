@@ -1,6 +1,6 @@
 import {  motion } from 'framer-motion'
 import { Hero } from '../assets'
-import { HeroTypeWritter } from '../components'
+import { HeroTypeWritter, LanguageSwitcher } from '../components'
 import { useTranslation } from 'react-i18next'
 
 const Home = () => {
@@ -12,6 +12,9 @@ const Home = () => {
       className="flex items-center justify-center flex-col gap-12 relative"
     >
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 w-full">
+      <div className="absolute top-0 right-0 md:hidden grayscale-[80%] hover:grayscale-0 z-auto">
+        <LanguageSwitcher />
+      </div>
         {/* content section */}
         <div className="w-full h-full flex flex-col items-center lg:items-start justify-center gap-4">
           <h2 className="text-3xl lg:text-4xl text-texlight">

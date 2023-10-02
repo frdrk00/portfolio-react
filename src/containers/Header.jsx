@@ -4,9 +4,7 @@ import { Menus } from '../utils/helper'
 const Header = () => {
   return (
     <>
-      <div className="absolute top-6 right-0 sm:hidden grayscale-[80%] hover:grayscale-0">
-        <LanguageSwitcher />
-      </div>
+
       <div className="fixed bottom-0 right-0 lg:top-0 w-full h-auto lg:h-screen lg:w-32 flex justify-center items-end lg:items-center pb-8 lg:pb-0 z-50">
         <div className="absolute top-6 max-sm:hidden grayscale-[80%] hover:grayscale-0">
           <LanguageSwitcher />

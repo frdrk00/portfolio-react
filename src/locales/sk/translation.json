@@ -1,10 +1,10 @@
 {
   "home_i_am": "Ahoj, som",
   "home_and_i_am": "A som",
-  "home_a_developer": "Programátor",
+  "home_a_developer": "Programátor..",
   "home_a_freelancer": "Freelancer..",
-  "home_full_stack_developer": "Full-stack vývojár z Nitry / Bratislavy, Slovensko.",
-  "home_experience": "Mám viac ako 1,5 roka skúseností s vývojom webových aplikácií s pomocou JavaScriptu a TypeScriptu, pričom s React.js mám viac ako 1 rok.",
+  "home_full_stack_developer": "Full-stack vývojár z Nitry / Bratislavy.",
+  "home_experience": "Mám viac ako 1,5-ročné skúseností s vývojom webových aplikácií, ktoré vyvíjam pomocou JavaScriptu a TypeScriptu, pričom využívam React.js s ktorým pracujem viac ako 1 rok.",
   "home_hire_me": "Osloviť",
   "home_download_cv": "Stiahnuť životopis",
 
@@ -18,8 +18,8 @@
   "service_count_full_stack_projects": "30+",
 
   "about_title": "O mne",
-  "about_paragraph1": "Som 28-ročný Slovák, ktorý objavil novú vášeň v živote. Je to programovanie a učenie sa novým technológiám. Táto flexibilná online práca mi poskytuje slobodu a čas na programovanie, ktorému venujem väčšinu svojej energie, pretože vidím veľký význam v tejto zručnosti. Rád by som stretol nových ambicióznych ľudí v oblasti programovania, s ktorými môžeme ísť vpred a vytvoriť spolu niečo významné.",
-  "about_paragraph2": "Viem efektívne komunikovať, som flexibilne v riešení problémov, rýchlo chápem nové princípy a technológie a som oddaný neustálemu pokroku. Okrem toho mám vášnivo sledujem vývoj a všetko čo súvisí s umelou inteligenciou.",
+  "about_paragraph1": "Mám 28 rokov a objavil som v živote novú vášeň. Je to programovanie a učenie sa novým technológiám. Táto flexibilná online práca mi poskytuje slobodu a čas na programovanie, ktorému venujem väčšinu svojej energie, pretože vidím veľký význam v tejto zručnosti. Rád by som stretol nových ambicióznych ľudí v oblasti programovania, s ktorými môžem napredovať a vytvoriť spolu niečo významné.",
+  "about_paragraph2": "Viem efektívne komunikovať, som flexibilný v riešení problémov, rýchlo chápem nové princípy a technológie a som oddaný neustálemu pokroku. Okrem toho vášnivo sledujem vývoj a všetko čo súvisí s umelou inteligenciou.",
   "about_paragraph3": "Sledujem aktuálne trendy vo vývoji webových aplikácií a aktívne hľadám nové technológie a postupy, ktoré mi pomôžu vytvoriť lepšie aplikácie.",
 
   "skills_title": "Zručnosti",
